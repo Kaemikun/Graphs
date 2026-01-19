@@ -6,67 +6,63 @@ Welcome to the **Graphs** repository! This repository is dedicated to graph-base
 
 Graphs are fundamental data structures in computer science, representing relationships and connections between entities. This repository serves as a comprehensive resource for learning, practicing, and mastering graph algorithms and their applications.
 
+## 🗂️ Repository Structure
+
+```
+Graphs/
+├── README.md                    # This file
+├── GraphRepresentation/         # Graph representation implementations
+├── Traversals/                  # BFS and DFS implementations
+├── ShortestPathAlgos/          # Shortest path algorithms
+├── TopoSort/                   # Topological sorting
+├── CycleDetection/             # Cycle detection algorithms
+├── ConnectedComponents/        # Connected components algorithms
+├── BipartiteGraph/             # Bipartite graph checking
+└── Questions/                  # Coding problems and solutions
+```
+
 ## 🎯 Topics Covered
 
-### Graph Representations
+### Graph Representations (`GraphRepresentation/`)
 - **Adjacency Matrix** - Matrix-based representation of graphs
 - **Adjacency List** - List-based representation for efficient storage
 - **Edge List** - Simple list of all edges in the graph
 
-### Graph Traversal Algorithms
+### Graph Traversal Algorithms (`Traversals/`)
 - **Breadth-First Search (BFS)** - Level-order traversal
 - **Depth-First Search (DFS)** - Exploration-based traversal
 - **Iterative Deepening DFS** - Memory-efficient depth-first approach
 
-### Shortest Path Algorithms
+### Shortest Path Algorithms (`ShortestPathAlgos/`)
 - **Dijkstra's Algorithm** - Shortest path in weighted graphs
 - **Bellman-Ford Algorithm** - Handles negative weights
 - **Floyd-Warshall Algorithm** - All-pairs shortest paths
 - **A* Search Algorithm** - Heuristic-based pathfinding
 
-### Minimum Spanning Tree
-- **Kruskal's Algorithm** - Edge-based MST construction
-- **Prim's Algorithm** - Vertex-based MST construction
+### Topological Sorting (`TopoSort/`)
+- **Kahn's Algorithm** - BFS-based topological sorting
+- **DFS-based Topological Sort** - Recursive approach
+- Applications in task scheduling and dependency resolution
 
-### Advanced Graph Algorithms
-- **Topological Sorting** - Linear ordering of directed acyclic graphs
+### Cycle Detection (`CycleDetection/`)
+- Detecting cycles in **directed graphs**
+- Detecting cycles in **undirected graphs**
+- Using DFS and Union-Find approaches
+
+### Connected Components (`ConnectedComponents/`)
 - **Strongly Connected Components** - Kosaraju's and Tarjan's algorithms
-- **Articulation Points and Bridges** - Finding critical connections
-- **Cycle Detection** - Detecting cycles in directed and undirected graphs
+- **Weakly Connected Components**
+- Applications in network analysis
+
+### Bipartite Graphs (`BipartiteGraph/`)
 - **Bipartite Graph Check** - Determining if a graph is bipartite
-- **Network Flow** - Max Flow Min Cut (Ford-Fulkerson, Edmonds-Karp)
+- **Graph Coloring** - Two-coloring algorithms
+- Applications in matching problems
 
-### Graph Coloring
-- **Vertex Coloring** - Assigning colors to vertices
-- **Edge Coloring** - Assigning colors to edges
-- **Greedy Coloring Algorithms**
-
-### Common Graph Problems
-- **Traveling Salesman Problem (TSP)**
-- **Hamiltonian Path and Cycle**
-- **Eulerian Path and Circuit**
-- **Graph Isomorphism**
-- **Clique Problems**
-
-## 🗂️ Repository Structure
-
-The following is the proposed structure for organizing graph algorithms and problems:
-
-```
-Graphs/
-├── README.md                 # This file
-├── algorithms/              # Implementation of graph algorithms
-│   ├── traversal/          # BFS, DFS implementations
-│   ├── shortest-path/      # Dijkstra, Bellman-Ford, etc.
-│   ├── mst/                # Minimum Spanning Tree algorithms
-│   └── advanced/           # Advanced graph algorithms
-├── problems/               # Coding problems and solutions
-│   ├── easy/              # Beginner-level problems
-│   ├── medium/            # Intermediate-level problems
-│   └── hard/              # Advanced-level problems
-├── theory/                # Theoretical explanations and notes
-└── examples/              # Example use cases and applications
-```
+### Practice Problems (`Questions/`)
+- Curated graph problems and solutions
+- Real-world applications
+- Interview preparation questions
 
 ## 🚀 Getting Started
 
@@ -84,8 +80,8 @@ Graphs/
 
 ## 💡 How to Use This Repository
 
-- **Learning:** Start with basic graph representations and traversal algorithms
-- **Practice:** Work through problems categorized by difficulty level
+- **Learning:** Start with `GraphRepresentation/` and `Traversals/` for fundamentals
+- **Practice:** Work through problems in the `Questions/` directory
 - **Reference:** Use implementations as reference for your own projects
 - **Contribute:** Add new algorithms, optimizations, or problem solutions
 
