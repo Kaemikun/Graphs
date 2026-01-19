@@ -50,6 +50,8 @@ Graphs are fundamental data structures in computer science, representing relatio
 
 ## 🗂️ Repository Structure
 
+The following is the proposed structure for organizing graph algorithms and problems:
+
 ```
 Graphs/
 ├── README.md                 # This file
